@@ -1,10 +1,11 @@
-import { Container } from "./style.js";
-
+import { Container } from "./styles.js";
+import { ButtonArea } from '../../components/ButtonArea'
 
 export function Home() {
   return (
     <Container>
-      <h1>Hello world</h1>
+
+      <ButtonArea />
 
     </Container>
   )
