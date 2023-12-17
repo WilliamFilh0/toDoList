@@ -5,7 +5,7 @@ export function ButtonArea(title, ...rest) {
 
 
     <Container>
-      <button type="button"></button>
+      <button type="button" onClick={() => { console.log('Botão ButtonArea clicado!'); }}></button>
       <span>Lorem ipsum dolor sit amet.</span>
     </Container>
   )

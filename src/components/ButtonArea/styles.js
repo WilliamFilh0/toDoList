@@ -11,7 +11,7 @@ justify-content: center;
   
 
   border-radius: 50%;
-  background-color: bfbfbf;
+  background-color: #bfbfbf;
   outline: none;
   border: none; 
   }
