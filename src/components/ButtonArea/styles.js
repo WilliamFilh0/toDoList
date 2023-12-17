@@ -4,21 +4,18 @@ export const Container = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+`;
 
-  >button{
+export const Button = styled.button`
   width: 20px;
   height: 18px;
   
-
   border-radius: 50%;
-  background-color: #bfbfbf;
+  background-color:  ${props => props.color};
   outline: none;
   border: none; 
-  }
+`
 
-  >span {
-    margin-left: 10px;
-  }
-  
-`;
-
+export const Span = styled.span`
+  margin-left: 10px;
+`
