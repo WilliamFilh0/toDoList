@@ -5,7 +5,13 @@ export const Button = styled.button`
   height: 40px;
   
   border-radius: 50%;
-  background-color: #bfbfbf;
   outline: none;
-  border: none; 
+  border: none;
+  overflow: hidden; 
+`
+
+export const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `
