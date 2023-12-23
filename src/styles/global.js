@@ -27,4 +27,4 @@ export default createGlobalStyle`
   button, a {
     filter: brightness(0.9);
   }
-`
+`;

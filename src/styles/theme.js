@@ -1,5 +1,5 @@
 export default {
   COLORS: {
-    BLUE: "#41afca"
-  }
+    BLUE: "#41afca",
+  },
 };
