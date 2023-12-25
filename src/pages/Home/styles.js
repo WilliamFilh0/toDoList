@@ -13,10 +13,10 @@ export const ContainerItens = styled.div`
   align-items: center;
   justify-content: center;
 
-  height: 400px;
-  width: 300px;
+  height: 600px; //400
+  width: 500px; //300
   background-color: white;
   border-radius: 50px;
 `;
 
-export const Header = styled.div``;
+export const Header = styled.header``;
