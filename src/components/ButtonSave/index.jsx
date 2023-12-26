@@ -1,5 +1,5 @@
-import { Button, Img } from "./styles";
-import Adicao from "../../assets/AdicaoNotas.jpg";
+import { Button } from "./styles";
+import { IoAddSharp } from "react-icons/io5";
 
 export function ButtonSave() {
   return (
@@ -9,7 +9,7 @@ export function ButtonSave() {
         console.log("Botão ButtonSave clicado!");
       }}
     >
-      <Img src={Adicao} />
+      <IoAddSharp size={30} />
     </Button>
   );
 }

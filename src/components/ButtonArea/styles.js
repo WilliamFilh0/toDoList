@@ -7,6 +7,11 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+
   width: 20px;
   height: 18px;
 

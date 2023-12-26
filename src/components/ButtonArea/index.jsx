@@ -1,5 +1,6 @@
 import { Container, Button, Span } from "./styles";
 import { useState } from "react";
+import { GiCheckMark } from "react-icons/gi";
 
 export function ButtonArea() {
   const [color, setColor] = useState("#bfbfbf");
@@ -12,7 +13,9 @@ export function ButtonArea() {
 
   return (
     <Container>
-      <Button type="button" color={color} onClick={handleButton}></Button>
+      <Button type="button" color={color} onClick={handleButton}>
+        {color === "#41afca" && <GiCheckMark size={12} />}
+      </Button>
       <Span textDecoration={textDecoration}>Lorem ipsum dolor sit amet.</Span>
     </Container>
   );

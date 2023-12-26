@@ -18,5 +18,3 @@ export const ContainerItens = styled.div`
   background-color: white;
   border-radius: 50px;
 `;
-
-export const Header = styled.header``;
