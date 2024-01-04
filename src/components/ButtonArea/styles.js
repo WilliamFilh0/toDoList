@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  grid-area: ButtonArea;
 `;
 
 export const Button = styled.button`

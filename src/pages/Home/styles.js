@@ -8,13 +8,27 @@ export const Container = styled.div`
 `;
 
 export const ContainerItens = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
-  height: 600px; //400
-  width: 500px; //300
+  grid-template-areas:
+    "header header header"
+    "ButtonArea ButtonArea content "
+    "buttonSave buttonSave buttonSave";
+
+  height: 600px;
+  width: 500px;
   background-color: white;
   border-radius: 50px;
+`;
+
+export const StyledButtonArea = styled.div`
+  margin-left: 40px;
+`;
+
+export const StyledButtonSave = styled.div``;
+
+export const Content = styled.div`
+  grid-area: content;
 `;
