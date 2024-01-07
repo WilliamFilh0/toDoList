@@ -16,7 +16,3 @@ export const Button = styled.button`
   border: none;
   overflow: hidden;
 `;
-/*
-export const CustomIoAddSharp = styled(IoAddSharp)`
-  font-size: 30px;
-`;*/

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ButtonSave } from "../../components/ButtonSave";
 
 export const Container = styled.div`
   display: flex;
@@ -9,13 +10,14 @@ export const Container = styled.div`
 
 export const ContainerItens = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 
   grid-template-areas:
     "header header header"
-    "ButtonArea ButtonArea content "
-    "buttonSave buttonSave buttonSave";
+    "ButtonArea ButtonArea ."
+    ". . ."
+    ". . buttonSave";
 
   height: 600px;
   width: 500px;
@@ -27,8 +29,8 @@ export const StyledButtonArea = styled.div`
   margin-left: 40px;
 `;
 
-export const StyledButtonSave = styled.div``;
-
-export const Content = styled.div`
-  grid-area: content;
+export const StyledButtonSave = styled(ButtonSave)`
+  grid-area: buttonSave;
+  justify-self: end;
+  align-self: end;
 `;

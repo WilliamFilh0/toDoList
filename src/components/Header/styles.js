@@ -4,7 +4,8 @@ export const Header1 = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-left: 15px;
   padding-top: 10px;
 
   grid-area: header;
@@ -12,7 +13,6 @@ export const Header1 = styled.header`
   height: 80px;
   width: 500px;
 
-  background-color: blueviolet;
   border-radius: 50px 50px 0 0;
 `;
 
