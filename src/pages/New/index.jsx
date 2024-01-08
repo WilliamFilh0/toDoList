@@ -1,3 +1,6 @@
+import { FaChevronLeft, FaRegCalendar } from "react-icons/fa";
+import { BsClock } from "react-icons/bs";
+
 import {
   Container,
   ContainerIten,
@@ -5,9 +8,11 @@ import {
   Button,
   Return,
   BarNavigation,
-  input,
+  Input,
+  TextArea,
+  RememberDate,
+  RememberTime,
 } from "./styles";
-import { FaChevronLeft } from "react-icons/fa";
 
 export function New() {
   return (
@@ -21,7 +26,16 @@ export function New() {
             <Button>Save</Button>
           </BarNavigation>
         </HeaderNew>
-        <input1 type="text"></input1>
+        <Input type="text" placeholder="New Task"></Input>
+        <RememberDate>
+          <FaRegCalendar size={16} />
+          <p>Wed, Jan20</p>
+        </RememberDate>
+        <RememberTime>
+          <BsClock />
+          <p>12:00PM</p>
+        </RememberTime>
+        <TextArea placeholder="Here will be the text of the new task" />
       </ContainerIten>
     </Container>
   );

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaRegCalendar } from "react-icons/fa";
 
 export const Container = styled.div`
   display: flex;
@@ -8,6 +9,9 @@ export const Container = styled.div`
 `;
 
 export const ContainerIten = styled.div`
+  display: flex;
+  flex-direction: column;
+
   height: 600px;
   width: 500px;
   background-color: white;
@@ -59,6 +63,60 @@ export const BarNavigation = styled.div`
   margin-right: 30px;
 `;
 
-export const input1 = styled.input`
-  background-color: aqua;
+export const Input = styled.input`
+  width: 184px;
+  height: 44px;
+
+  //posicionamento
+  margin-left: 20px;
+
+  //background-color: aqua;
+  border: none;
+  //border-radius: 10px;
+
+  &::-webkit-input-placeholder {
+    position: absolute;
+    top: 5px;
+
+    color: black;
+
+    font-weight: bold;
+    font-size: 30px;
+  }
+`;
+
+export const TextArea = styled.textarea`
+  width: 480px;
+  height: 150px;
+
+  //posicionamento
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  resize: none;
+
+  &::-webkit-input-placeholder {
+    padding-left: 15px;
+
+    color: black;
+    font-size: large;
+  }
+`;
+
+export const RememberDate = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  //posicionamento
+  margin-left: 20px;
+`;
+
+export const RememberTime = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  //posicionamento
+  margin-left: 20px;
 `;
