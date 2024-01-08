@@ -22,7 +22,7 @@ export const Span1 = styled.span`
   font-size: 50px;
 `;
 
-export const Div = styled.div`
+export const DateInfo = styled.div`
   display: flex;
   flex-direction: column;
 `;

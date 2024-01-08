@@ -22,7 +22,7 @@ export const ContainerItens = styled.div`
   height: 600px;
   width: 500px;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 20px;
 `;
 
 export const StyledButtonArea = styled.div`
